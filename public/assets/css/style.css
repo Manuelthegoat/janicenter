@@ -1727,14 +1727,14 @@ label {
 .about-img-wrap-two img:nth-child(1) {
 	border-radius: 30px;
 }
-.about-img-wrap-two img:nth-child(2) {
+/* .about-img-wrap-two img:nth-child(2) {
 	width: 435px;
 	height: 435px;
 	border-radius: 50px;
 	border: 10px solid var(--tg-secondary-color);
 	right: 0;
 	bottom: 0;
-}
+} */
 .about-img-wrap-two img:nth-child(3) {
 	left: -85px;
 	top: 50px;

@@ -10,8 +10,9 @@ const About = () => {
                         <div class="col-xl-7 col-lg-6 col-md-10">
                             <div class="about-img-wrap-two">
                                 <img src='assets/img/5.jpg' alt=""/>
-                                    <img src="assets/img/woman.png" data-aos="fade-up" alt=""/>
-                                        <img src="assets/img/images/h4_about_shape01.png" alt=""/>
+                                {/* <img src="" alt="" /> */}
+                                        {/* <img src="assets/img/images/h4_about_shape01.png" alt=""/> */}
+                                    {/* <img src="assets/img/woman.png" data-aos="fade-up" alt=""/> */}
                                         </div>
                                     </div>
                                     <div class="col-xl-5 col-lg-6">
