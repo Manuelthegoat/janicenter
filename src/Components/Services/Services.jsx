@@ -16,19 +16,6 @@ const Services = () => {
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-lg-4 col-md-6 col-sm-10">
-                            <div class="services-item-five" data-background="assets/img/images/services_item_img01.jpg">
-                                <div class="services-icon">
-                                    <svg viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M18.7379 18.7498C18.7379 17.8794 17.2221 15.4468 17.2221 15.4468C17.2221 15.4468 15.6833 17.8794 15.6833 18.7498C15.6833 19.6184 16.3675 20.3229 17.2108 20.3229C18.0537 20.3229 18.7379 19.6184 18.7379 18.7498ZM7.7775 5.12022H4.72292V1.96567H5.55583V0.244141H0V1.96567H0.833333V6.84132C0.833333 8.1089 1.82833 9.13597 3.05542 9.13597H7.7775V9.99673H9.44458V4.26032H7.7775V5.12022ZM19.1658 12.2909V7.41531C19.1658 6.14816 18.1712 5.12066 16.9454 5.12066H12.2225V4.26076H10.5554V9.99761H12.2225V9.1364H15.2775V12.2909H14.4454V14.0125H20V12.2909H19.1658Z" fill="currentcolor" />
-                                    </svg>
-                                </div>
-                                <div class="services-content-five">
-                                    <h2 class="title"><a href="services-details.html">Plumbing Service</a></h2>
-                                    <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-10">
                             <div class="services-item-five" data-background="assets/img/images/services_item_img02.jpg">
                                 <div class="services-icon">
                                     <svg viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +47,20 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div class="services-content-five">
-                                    <h2 class="title"><a href="services-details.html">Office Cleaning</a></h2>
+                                    <h2 class="title"><a href="services-details.html">House Cleaning</a></h2>
+                                    <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <div class="services-item-five" data-background="assets/img/images/services_item_img01.jpg">
+                                <div class="services-icon">
+                                    <svg viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.7379 18.7498C18.7379 17.8794 17.2221 15.4468 17.2221 15.4468C17.2221 15.4468 15.6833 17.8794 15.6833 18.7498C15.6833 19.6184 16.3675 20.3229 17.2108 20.3229C18.0537 20.3229 18.7379 19.6184 18.7379 18.7498ZM7.7775 5.12022H4.72292V1.96567H5.55583V0.244141H0V1.96567H0.833333V6.84132C0.833333 8.1089 1.82833 9.13597 3.05542 9.13597H7.7775V9.99673H9.44458V4.26032H7.7775V5.12022ZM19.1658 12.2909V7.41531C19.1658 6.14816 18.1712 5.12066 16.9454 5.12066H12.2225V4.26076H10.5554V9.99761H12.2225V9.1364H15.2775V12.2909H14.4454V14.0125H20V12.2909H19.1658Z" fill="currentcolor" />
+                                    </svg>
+                                </div>
+                                <div class="services-content-five">
+                                    <h2 class="title"><a href="services-details.html">Plumbing Service</a></h2>
                                     <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
                                 </div>
                             </div>

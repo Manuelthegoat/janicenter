@@ -12,13 +12,13 @@ function App() {
 
   return (
     <>
-      <div id="preloader">
+      {/* <div id="preloader">
         <div id="loader" class="loader">
           <div class="loader-container">
             <div class="loader-icon"><img src={logo} alt="Preloader" /></div>
           </div>
         </div>
-      </div>
+      </div> */}
       <button class="scroll-top scroll-to-target" data-target="html">
         <i class="fas fa-angle-up"></i>
       </button>
