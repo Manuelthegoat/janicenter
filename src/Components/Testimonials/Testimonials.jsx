@@ -8,7 +8,7 @@ const Testimonials = () => {
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-9">
                             <div class="section-title-three mb-60">
-                                <span class="sub-title">Our Testimonial</span>
+                                {/* <span class="sub-title">Our Testimonial</span> */}
                                 <h2 class="title">Our Testimonial</h2>
                                 <p>Commodo dictum iaculis eget mas phasellus ultrices nunc dignissim. Id nulla amet tincidunt urna sed massa</p>
                             </div>
