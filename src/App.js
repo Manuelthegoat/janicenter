@@ -9,6 +9,9 @@ import Routing from './Routes';
 import ScrollToTop from './Scrolltotop';
 
 function App() {
+  const scroll = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth', });
+  }
 
   return (
     <>
@@ -19,7 +22,7 @@ function App() {
           </div>
         </div>
       </div> */}
-      <button class="scroll-top scroll-to-target" data-target="html">
+      <button class="scroll-top scroll-to-target" onClick={scroll}>
         <i class="fas fa-angle-up"></i>
       </button>
       <Header />
