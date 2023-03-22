@@ -33,7 +33,7 @@ const Project = () => {
                                 </div>
                                 <div class="project-content-three">
                                     <h2 class="title"><a href="project-details.html">Corporate Cleaning</a></h2>
-                                    <span>Average Service</span>
+                                    <span>Excellent Service</span>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ const Project = () => {
                                 </div>
                                 <div class="project-content-three">
                                     <h2 class="title"><a href="project-details.html">Fumigation Services</a></h2>
-                                    <span>Good Service</span>
+                                    <span>Excellent Service</span>
                                 </div>
                             </div>
                         </div>
