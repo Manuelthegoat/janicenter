@@ -8,7 +8,9 @@
     background-size: cover;
 }
 .manuelbread{
-    background: url(../public/assets/img/bg/breadcrumb_bg.jpg);
+    background: url(../public/assets/img/1.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .logos{
     width: 3rem;

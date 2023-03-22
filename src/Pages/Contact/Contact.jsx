@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <section
-        class="breadcrumb-area breadcrumb-bg "
+        class="breadcrumb-area breadcrumb-bg manuelbread"
         data-background="assets/img/bg/breadcrumb_bg.jpg"
       >
         <div class="container">
