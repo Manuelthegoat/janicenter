@@ -18,11 +18,11 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div class="row testimonial-active">
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="testimonial-item">
-                                <div class="testimonial-icon">
+                                {/* <div class="testimonial-icon">
                                     <i class="fas fa-quote-right"></i>
-                                </div>
+                                </div> */}
                                 <div class="testimonial-content">
                                     <p>Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum tellus eget ultrices pretium nisi amet facilisis cursus amus ommodo dictum.</p>
                                     <div class="testimonial-avatar-info">
@@ -37,11 +37,11 @@ const Testimonials = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="testimonial-item">
-                                <div class="testimonial-icon">
+                                {/* <div class="testimonial-icon">
                                     <i class="fas fa-quote-right"></i>
-                                </div>
+                                </div> */}
                                 <div class="testimonial-content">
                                     <p>Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum tellus eget ultrices pretium nisi amet facilisis cursus amus ommodo dictum.</p>
                                     <div class="testimonial-avatar-info">
@@ -56,11 +56,11 @@ const Testimonials = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="testimonial-item">
-                                <div class="testimonial-icon">
+                                {/* <div class="testimonial-icon">
                                     <i class="fas fa-quote-right"></i>
-                                </div>
+                                </div> */}
                                 <div class="testimonial-content">
                                     <p>Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse nulla aliquam. Risus rutrum tellus eget ultrices pretium nisi amet facilisis cursus amus ommodo dictum.</p>
                                     <div class="testimonial-avatar-info">
