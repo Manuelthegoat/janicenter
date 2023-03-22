@@ -3,6 +3,136 @@ import React from "react";
 const Partners = () => {
   return (
     <>
+      <section
+        class="breadcrumb-area breadcrumb-bg manuelbread"
+        data-background="assets/img/bg/breadcrumb_bg.jpg"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="breadcrumb-content">
+                <h2 class="title">Our Partners</h2>
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      Our Partners & Corporate Organization
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="estimate-area pt-50 pb-50">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10">
+              <div class="estimate-img-wrap">
+                <img src="assets/img/maid.png" alt="" />
+                <div class="office-loction-wrap">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="loction-item">
+                        {/* <div class="icon">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                </div> */}
+                        <div class="content">
+                          <h2 class="title">Corporate Organization</h2>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Porro alias sequi dolore optio ipsa, facilis
+                            repudiandae unde quos quam aliquam.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="loction-item">
+                        <div class="icon">
+                          <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="content">
+                          <h2 class="title">California Office</h2>
+                          <p>No18 King George V street, Onikan Lagos</p>
+                          <a href="tel:0123456789">(+234) 909 532 1394</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="estimate-form">
+                <h2 class="title">Join Us</h2>
+                <form action="#">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-grp">
+                        <input type="text" placeholder="First Name*" />
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-grp">
+                        <input type="text" placeholder="Last Name*" />
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-grp">
+                        <input type="text" placeholder=" Phone number*" />
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-grp">
+                        <input type="email" placeholder="Email*" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-grp select-grp">
+                    <select
+                      id="shortByOne"
+                      name="select"
+                      aria-label="Default select example"
+                    >
+                      <option value="">Select Services*</option>
+                      <option>Office Service*</option>
+                      <option>Home Service*</option>
+                      <option>Others Service*</option>
+                    </select>
+                  </div>
+
+                  <div class="form-grp select-grp">
+                    <select
+                      id="shortByThree"
+                      name="select"
+                      aria-label="Default select example"
+                    >
+                      <option value="">How did you hear about us?*</option>
+                      <option>Office Service</option>
+                      <option>Home Service</option>
+                      <option>Others Service</option>
+                    </select>
+                  </div>
+                  <div class="form-grp">
+                    <textarea
+                      name="comments"
+                      placeholder="Comments/Questions*"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-two">
+                    Submit Now
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <div class="brand-area pb-130 pt-50">
         <div class="container">
           <div class="row justify-content-center ">
@@ -31,7 +161,8 @@ const Partners = () => {
                 </span>
                 <h2 class="title">
                   Get to know Our
-                  <span>&nbsp;Partners
+                  <span>
+                    &nbsp;Partners
                     <svg
                       viewBox="0 0 173 24"
                       fill="none"
@@ -105,7 +236,6 @@ const Partners = () => {
                 <img src="assets/img/p11.png" alt="" />
               </div>
             </div>
-            
           </div>
         </div>
       </div>
