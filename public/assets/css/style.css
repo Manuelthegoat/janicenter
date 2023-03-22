@@ -5104,8 +5104,8 @@ label {
 }
 .footer-logo-area {
 	border-bottom: 1px solid #263C7C;
-	padding-bottom: 48px;
-	margin-bottom: 50px;
+	padding-bottom: 18px;
+	margin-bottom: 20px;
 }
 .footer-bg .footer-top .container>.row>*:nth-child(2) .footer-widget {
     margin-left: 40px;
