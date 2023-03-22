@@ -19,7 +19,7 @@ const Abouta = () => {
                   alt=""
                 /> */}
                 <div class="year-experience-wrap">
-                  <span class="coutn odometer" data-count="25"></span>
+                  <span class="coutn odometer" data-count="25">25</span>
                   <p>
                     Years of <span>Experience</span>
                   </p>
