@@ -1393,6 +1393,7 @@ label {
 .banner-form-wrap {
 	background: var(--tg-primary-color);
 	padding: 120px 70px;
+	margin-top: 2rem;
 	-webkit-clip-path: polygon(0 0, 100% calc(0% + 76px), 100% 100%, 0% 100%);
 	clip-path: polygon(0 0, 100% calc(0% + 76px), 100% 100%, 0% 100%);
 	margin-left: 70px;
