@@ -18,7 +18,7 @@ const About = () => {
                                     <div class="col-xl-5 col-lg-6">
                                         <div class="about-content-three">
                                             <div class="section-title-three mb-25">
-                                                <span class="sub-title">About Our Company</span>
+                                                {/* <span class="sub-title">About Our Company</span> */}
                                                 <h2 class="title">About Us</h2>
                                             </div>
                                             <p>Lorem ipsum dolor sit amet consectetur suspendisse nulla aliquam. Risus rutrum tellus eget ultrices pretium nisi amet facilisis. Augue eu vulputate tortor egestas cursus vivamus. massa ultrices nunc dignissim.</p>
