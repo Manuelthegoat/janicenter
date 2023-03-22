@@ -4040,13 +4040,13 @@ label {
 	padding: 0 15px;
 }
 .brand-item img {
-	opacity: 0.15;
+	/* opacity: 0.15; */
 	cursor: pointer;
 	transition: .3s linear;
 }
-.brand-item img:hover {
+/* .brand-item img:hover {
 	opacity: 1;
-}
+} */
 
 
 /*=============================
