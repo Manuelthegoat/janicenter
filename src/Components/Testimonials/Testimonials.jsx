@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <div>
-      <section class="testimonial-area-four pt-130 pb-100">
+      <section class="testimonial-area-four  pb-100">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-9">
