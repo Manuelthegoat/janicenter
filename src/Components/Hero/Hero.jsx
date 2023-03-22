@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
     return (
         <div>
-            <section class="banner-area-three manuel jarallax banner-bg-three" data-background="assets/img/banner/h4_banner_bg.jpg">
+            <section class="banner-area-three manuel jarallax banner-bg-three pt-0" data-background="assets/img/banner/h4_banner_bg.jpg">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
                         <div class="col-lg-6 col-md-10 order-0 order-lg-2">
