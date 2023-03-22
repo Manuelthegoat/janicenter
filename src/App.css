@@ -11,7 +11,7 @@
     background: url(../public/assets/img/bg/breadcrumb_bg.jpg);
 }
 .logos{
-    width: 7rem;
+    width: 5rem;
 }
 @media screen and (max-width: 990px) {
     .logos{

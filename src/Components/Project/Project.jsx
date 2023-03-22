@@ -18,7 +18,7 @@ const Project = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="project-item-three">
                                 <div class="project-thumb-three">
-                                    <a href="project-details.html"><img src="assets/img/5.jpg" alt=""/></a>
+                                    <a href="project-details.html"><img src="assets/img/9.jpg" alt=""/></a>
                                 </div>
                                 <div class="project-content-three">
                                     <h2 class="title"><a href="project-details.html">House Cleaning</a></h2>
@@ -29,7 +29,7 @@ const Project = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="project-item-three">
                                 <div class="project-thumb-three">
-                                    <a href="project-details.html"><img src="assets/img/9.jpg" alt=""/></a>
+                                    <a href="project-details.html"><img src="assets/img/afro.png" alt=""/></a>
                                 </div>
                                 <div class="project-content-three">
                                     <h2 class="title"><a href="project-details.html">Corporate Cleaning</a></h2>
