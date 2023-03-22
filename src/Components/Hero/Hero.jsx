@@ -33,9 +33,9 @@ const Hero = () => {
                         </div>
                         <div class="col-lg-6">
                             <div class="banner-content-three">
-                                <h2 class="title" data-aos="fade-right" data-aos-delay="0">Janicenter Africa Cleaning Services</h2>
-                                <h3 data-aos="fade-right" data-aos-delay="300">Cleaning to the last detail</h3>
-                                <div class="banner-btn" data-aos="fade-right" data-aos-delay="600">
+                                <h2 class="title">Janicenter Africa Cleaning Services</h2>
+                                <h3 >Cleaning to the last detail</h3>
+                                <div class="banner-btn" >
                                     <a href="services.html" class="btn">Discover MORE</a>
                                     <a href="services.html" class="btn btn-two">Our service</a>
                                 </div>
