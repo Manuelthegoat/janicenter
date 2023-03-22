@@ -13,32 +13,32 @@ const Partners = () => {
           </div>
         </div>
         <div class="row brand-active">
-          <div class="col-2">
+          <div class="col-lg-2 col-sm-6">
             <div class="brand-item">
               <img src="assets/img/p1.png" alt="" />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-lg-2 col-sm-6">
             <div class="brand-item">
               <img src="assets/img/p2.png" alt="" />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-lg-2 col-sm-6">
             <div class="brand-item">
               <img src="assets/img/p3.png" alt="" />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-lg-2 col-sm-6">
             <div class="brand-item">
               <img src="assets/img/p4.png" alt="" />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-lg-2 col-sm-6">
             <div class="brand-item">
               <img src="assets/img/p5.png" alt="" />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-lg-2 col-sm-6">
             <div class="brand-item">
               <img src="assets/img/p6.png" alt="" />
             </div>
