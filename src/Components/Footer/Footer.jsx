@@ -34,14 +34,14 @@ const Footer = () => {
                                         <h4 class="title">Contact Us</h4>
                                     </div>
                                     <div class="footer-content">
-                                        <p>523 Sylvan Ave, 5th Floor Mountain View, CA 94041USA</p>
+                                        <p>NO18 King George V street, Onikan Lagos</p>
                                         <div class="footer-contact">
                                             <ul class="list-wrap">
                                                 <li class="phone-addess">
                                                     <i class="fas fa-phone-alt"></i>
-                                                    <a href="tel:0123456789">1-888-452-1505</a>
+                                                    <a href="tel:09095321394">(+234)9095321394</a>
                                                 </li>
-                                                <li class="email-addess"><a href="mailto:Envato@gmail.com">Envato@gmail.com</a>
+                                                <li class="email-addess"><a href="mailto:support@janicentre.com">support@janicentre.com</a>
                                                 </li>
                                             </ul>
                                         </div>

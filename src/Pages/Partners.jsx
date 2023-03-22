@@ -4,7 +4,7 @@ const Partners = () => {
   return (
     <>
       <section
-        class="breadcrumb-area breadcrumb-bg manuelbread"
+        class="breadcrumb-area breadcrumb-bg "
         data-background="assets/img/bg/breadcrumb_bg.jpg"
       >
         <div class="container">
@@ -186,6 +186,11 @@ const Partners = () => {
             </div>
             <div class="col-lg-2 col-sm-6">
               <div class="brand-item">
+                <img src="assets/img/p10.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="brand-item">
                 <img src="assets/img/p2.png" alt="" />
               </div>
             </div>
@@ -204,13 +209,14 @@ const Partners = () => {
                 <img src="assets/img/p5.png" alt="" />
               </div>
             </div>
+          </div>
+          <div class="row brand-active">
             <div class="col-lg-2 col-sm-6">
               <div class="brand-item">
                 <img src="assets/img/p6.png" alt="" />
               </div>
             </div>
-          </div>
-          <div class="row brand-active">
+            
             <div class="col-lg-2 col-sm-6">
               <div class="brand-item">
                 <img src="assets/img/p7.png" alt="" />
@@ -218,7 +224,12 @@ const Partners = () => {
             </div>
             <div class="col-lg-2 col-sm-6">
               <div class="brand-item">
-                <img src="assets/img/p8.png" alt="" />
+                <img src="assets/img/p12.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="brand-item">
+                <img src="assets/img/p13.png" alt="" />
               </div>
             </div>
             <div class="col-lg-2 col-sm-6">
@@ -226,11 +237,7 @@ const Partners = () => {
                 <img src="assets/img/p9.png" alt="" />
               </div>
             </div>
-            <div class="col-lg-2 col-sm-6">
-              <div class="brand-item">
-                <img src="assets/img/p10.png" alt="" />
-              </div>
-            </div>
+
             <div class="col-lg-2 col-sm-6">
               <div class="brand-item">
                 <img src="assets/img/p11.png" alt="" />
