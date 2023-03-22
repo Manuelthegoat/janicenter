@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <>
       <section
-        class="breadcrumb-area breadcrumb-bg manuelbread"
+        class="breadcrumb-area breadcrumb-bg "
         data-background="assets/img/bg/breadcrumb_bg.jpg"
       >
         <div class="container">
