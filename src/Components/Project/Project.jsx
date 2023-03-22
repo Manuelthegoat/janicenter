@@ -15,7 +15,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-3 col-md-6">
                             <div class="project-item-three">
                                 <div class="project-thumb-three">
                                     <a href="project-details.html"><img src="assets/img/9.jpg" alt=""/></a>
@@ -26,7 +26,7 @@ const Project = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-3 col-md-6">
                             <div class="project-item-three">
                                 <div class="project-thumb-three">
                                     <a href="project-details.html"><img src="assets/img/afro.png" alt=""/></a>
@@ -37,7 +37,7 @@ const Project = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-3 col-md-6">
                             <div class="project-item-three">
                                 <div class="project-thumb-three">
                                     <a href="project-details.html"><img src="assets/img/8.jpg" alt=""/></a>
@@ -48,7 +48,7 @@ const Project = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-3 col-md-6">
                             <div class="project-item-three">
                                 <div class="project-thumb-three">
                                     <a href="project-details.html"><img src="assets/img/7.png" alt=""/></a>
