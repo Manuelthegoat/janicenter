@@ -9,15 +9,15 @@ const Abouta = () => {
             <div class="col-lg-7 col-md-10">
               <div class="about-img-wrap">
                 <img
-                  src="assets/img/images/about_img01.jpg"
+                  src="assets/img/2.jpg"
                   data-aos="fade-right"
                   alt=""
                 />
-                <img
-                  src="assets/img/images/about_img02.png"
+                {/* <img
+                  src="assets/img/6.png"
                   data-aos="fade-up"
                   alt=""
-                />
+                /> */}
                 <div class="year-experience-wrap">
                   <span class="coutn odometer" data-count="25"></span>
                   <p>
