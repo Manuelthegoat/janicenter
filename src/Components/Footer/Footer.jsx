@@ -71,12 +71,10 @@ const Footer = () => {
                                     </div>
                                     <div class="fw-link-list">
                                         <ul class="list-wrap">
-                                            <li><a href="services.html">Apartment Cleaning</a></li>
                                             <li><a href="services.html">House Cleaning</a></li>
-                                            <li><a href="services.html">Carpet Cleaning</a></li>
-                                            <li><a href="services.html">After Renovation</a></li>
-                                            <li><a href="services.html">Curtain Cleaning</a></li>
-                                            <li><a href="services.html">Window Cleaning</a></li>
+                                            <li><a href="services.html">Corporate Cleaning</a></li>
+                                            <li><a href="services.html">BeSpoke Services</a></li>
+                                            <li><a href="services.html">Fumigation Services</a></li>
                                         </ul>
                                     </div>
                                 </div>
