@@ -16,7 +16,7 @@ const Home = () => {
       <Services />
       <Testimonials />
       <Partners />
-      <Counter />
+      {/* <Counter /> */}
     </div>
   );
 };
