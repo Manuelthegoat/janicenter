@@ -8,7 +8,7 @@ const Partners = () => {
           <div class="col-lg-6 col-md-10">
             <div class="section-title-three text-center">
               {/* <span class="sub-title">Our Services</span> */}
-              <h2 class="title">Our Partners</h2>
+              <h2 class="title">Some Of Our Partners</h2>
             </div>
           </div>
         </div>

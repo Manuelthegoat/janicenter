@@ -6,7 +6,7 @@ const Hero = () => {
             <section class="banner-area-three manuel jarallax banner-bg-three pt-0" data-background="assets/img/banner/h4_banner_bg.jpg">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
-                        <div class="col-lg-6 col-md-10 order-0 order-lg-2">
+                        <div class="col-lg-6 col-md-10 order-2 ">
                             <div class="banner-form-wrap">
                                 <h2 class="title">Get a Free Estimate</h2>
                                 <form action="#">

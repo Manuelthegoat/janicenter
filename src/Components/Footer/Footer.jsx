@@ -34,7 +34,7 @@ const Footer = () => {
                                         <h4 class="title">Contact Us</h4>
                                     </div>
                                     <div class="footer-content">
-                                        <p>NO18 King George V street, Onikan Lagos</p>
+                                        <p>NO 18 King George V street, Onikan Lagos</p>
                                         <div class="footer-contact">
                                             <ul class="list-wrap">
                                                 <li class="phone-addess">
