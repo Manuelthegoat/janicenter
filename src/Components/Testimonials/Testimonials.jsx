@@ -5,16 +5,13 @@ const Testimonials = () => {
     <div>
       <section class="testimonial-area-four  pb-100">
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-9">
-                            <div class="section-title-three mb-60">
-                                {/* <span class="sub-title">Our Testimonial</span> */}
-                                <h2 class="title">Our Testimonial</h2>
+                <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-10">
+                            <div class="section-title-three text-center">
+                                {/* <span class="sub-title">Our Services</span> */}
+                                <h2 class="title">Testimonials</h2>
                                 <p>Commodo dictum iaculis eget mas phasellus ultrices nunc dignissim. Id nulla amet tincidunt urna sed massa</p>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-md-3">
-                            <div class="testimonial-nav"></div>
                         </div>
                     </div>
                     <div class="row testimonial-active">
