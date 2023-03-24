@@ -47,7 +47,7 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div class="services-content-five">
-                                    <h2 class="title"><a href="services-details.html">House Cleaning</a></h2>
+                                    <h2 class="title"><a href="services-details.html">Post Construction Cleaning</a></h2>
                                     <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div class="services-content-five">
-                                    <h2 class="title"><a href="services-details.html">Plumbing Service</a></h2>
+                                    <h2 class="title"><a href="services-details.html">After Party Cleaning</a></h2>
                                     <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div class="services-content-five">
-                                    <h2 class="title"><a href="services-details.html">Laundry Service</a></h2>
+                                    <h2 class="title"><a href="services-details.html">Pre Move-in Cleaning Service</a></h2>
                                     <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
                                 </div>
                             </div>
