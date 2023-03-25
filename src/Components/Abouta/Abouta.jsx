@@ -8,18 +8,16 @@ const Abouta = () => {
           <div class="row justify-content-center">
             <div class="col-lg-7 col-md-10">
               <div class="about-img-wrap">
-                <img
-                  src="assets/img/2.jpg"
-                  data-aos="fade-right"
-                  alt=""
-                />
+                <img src="assets/img/2.jpg" data-aos="fade-right" alt="" />
                 {/* <img
                   src="assets/img/6.png"
                   data-aos="fade-up"
                   alt=""
                 /> */}
                 <div class="year-experience-wrap">
-                  <span class="coutn odometer" data-count="25">25</span>
+                  <span class="coutn odometer" data-count="25">
+                    5
+                  </span>
                   <p>
                     Years of <span>Experience</span>
                   </p>
@@ -51,9 +49,9 @@ const Abouta = () => {
                     About Our Company
                   </span>
                   <h2 class="title">
-                    One Stop Commercial
+                    Tech Driven Janitorial
                     <span>
-                      Cleaning
+                      Cleaning Service
                       <svg
                         viewBox="0 0 173 24"
                         fill="none"
@@ -69,23 +67,30 @@ const Abouta = () => {
                   </h2>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur suspendisse nulla
-                  aliquam. Risus rutrum tellus eget ultrices pretium nisi amet
-                  facilisis. Augue eu vulputate tortor egestas cursus vivamus.
-                  Commodo dictum iaculis eget massa phasellus ultrices as nunc
-                  dignissim. Id nulla amet tincidunt urna sed massa the sed
-                  massa ultrices amet eget.
+                  We are a tech-driven Janitorial and cleaning services company
+                  in Nigeria, we offer professional cleaning services to
+                  businesses in Nigeria and Africa. Our years of service have
+                  helped us thrive with the knowledge, skills, and quality of
+                  work acquired and achieved in corporate cleaning services and
+                  janitorial cleaning verticals, offering top-notch service
+                  quality. we boast of being the most reliable cleaning partner
+                  that helps you in uplifting the face of your company. With
+                  more than 5 years of experience, all our cleaning
+                  professionals are ready to give you a clean home that shows
+                  your clean personality!
                 </p>
                 <p>
-                  Tristique sed purus et maecenas condimentum massa the dolor.
-                  Lacus purus lectus diam diam tellus libero id dummy at any
-                  more sapien justo.
+                  All our tools and professional cleaning solutions are
+                  certified, ecologically friendly and safe to use. Whatever you
+                  need to clean up – from an apartment or a house to an office
+                  or even an industrial warehouse, we’re here to clean it
+                  professionally!
                 </p>
                 <div class="contact">
                   <span class="icon">
                     <i class="fas fa-phone-alt"></i>
                   </span>
-                  <a href="tel:0123456789">1-888-452-1505</a>
+                  <a href="tel:0123456789">(+234) 909 532 1394</a>
                 </div>
               </div>
             </div>
