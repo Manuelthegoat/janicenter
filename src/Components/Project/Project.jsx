@@ -1,4 +1,5 @@
 import React from 'react'
+import { projectdata } from './projectdata'
 
 const Project = () => {
   return (
@@ -15,51 +16,19 @@ const Project = () => {
                         </div>
                     </div>
                     <div class="row">
+                        {projectdata.map((item)=>(
                         <div class="col-lg-3 col-md-6">
                             <div class="project-item-three">
                                 <div class="project-thumb-three">
-                                    <a href="project-details.html"><img src="assets/img/9.jpg" alt=""/></a>
+                                    <a href={item.link}><img src={item.img} alt=""/></a>
                                 </div>
                                 <div class="project-content-three">
-                                    <h2 class="title"><a href="project-details.html">House Cleaning</a></h2>
-                                    <span>Excellent service </span>
+                                    <h2 class="title"><a>{item.title}</a></h2>
+                                    <span>{item.ex}</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="project-item-three">
-                                <div class="project-thumb-three">
-                                    <a href="project-details.html"><img src="assets/img/afro.png" alt=""/></a>
-                                </div>
-                                <div class="project-content-three">
-                                    <h2 class="title"><a href="project-details.html">Corporate Cleaning</a></h2>
-                                    <span>Excellent Service</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="project-item-three">
-                                <div class="project-thumb-three">
-                                    <a href="project-details.html"><img src="assets/img/8.jpg" alt=""/></a>
-                                </div>
-                                <div class="project-content-three">
-                                    <h2 class="title"><a href="project-details.html">BeSpoke Services</a></h2>
-                                    <span>Excellent Service</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="project-item-three">
-                                <div class="project-thumb-three">
-                                    <a href="project-details.html"><img src="assets/img/7.png" alt=""/></a>
-                                </div>
-                                <div class="project-content-three">
-                                    <h2 class="title"><a href="project-details.html">Fumigation Services</a></h2>
-                                    <span>Excellent Service</span>
-                                </div>
-                            </div>
-                        </div>
-                   
+                        </div>                   
+                        ))}
                     </div>
                 </div>
             </section>
