@@ -6,7 +6,7 @@ const Project = () => {
        <section class="project-area-three">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-lg-6 col-md-10">
+                        <div class="col-lg-12 mb-15 col-md-10">
                             <div class="section-title-three text-center">
                                 {/* <span class="sub-title">Our Services</span> */}
                                 <h2 class="title">Our Recommended Services</h2>
