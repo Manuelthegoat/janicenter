@@ -10,7 +10,7 @@ const Project = () => {
                             <div class="section-title-three text-center">
                                 {/* <span class="sub-title">Our Services</span> */}
                                 <h2 class="title">Our Recommended Services</h2>
-                                <p>Commodo dictum iaculis eget mas phasellus ultrices nunc dignissim. Id nulla amet tincidunt urna sed massa</p>
+                                <p>The </p>
                             </div>
                         </div>
                     </div>

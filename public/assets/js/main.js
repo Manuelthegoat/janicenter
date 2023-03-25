@@ -34,17 +34,17 @@ if ($('.mobile-menu').length) {
 	$('.mobile-menu .menu-box .menu-outer').append(mobileMenuContent);
 
 	//Dropdown Button
-	$('.mobile-menu li.menu-item-has-children .dropdown-btn').on('click', function () {
+	$('.mobile-menu li.menu-item-has-children .dropdown-btn').click(function () {
 		$(this).toggleClass('open');
 		$(this).prev('ul').slideToggle(300);
 	});
 	//Menu Toggle Btn
-	$('.mobile-nav-toggler').on('click', function () {
+	$('.mobile-nav-toggler').click(function () {
 		$('body').addClass('mobile-menu-visible');
 	});
 
 	//Menu Toggle Btn
-	$('.menu-backdrop, .mobile-menu .close-btn').on('click', function () {
+	$('.menu-backdrop, .mobile-menu .close-btn').click(function () {
 		$('body').removeClass('mobile-menu-visible');
 	});
 }

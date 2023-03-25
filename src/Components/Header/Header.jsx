@@ -10,7 +10,7 @@ const Header = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                            <div class="mobile-nav-toggler" id='mobile-nav-toggler'><i class="fas fa-bars"></i></div>
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
                                     <div class="logo">

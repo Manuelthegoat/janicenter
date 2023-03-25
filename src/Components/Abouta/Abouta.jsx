@@ -49,9 +49,9 @@ const Abouta = () => {
                     About Our Company
                   </span>
                   <h2 class="title">
-                    Tech Driven Janitorial
+                    Tech Driven Janitorial&nbsp;&&nbsp;
                     <span>
-                      Cleaning Service
+                      Cleaning Service&nbsp;
                       <svg
                         viewBox="0 0 173 24"
                         fill="none"
