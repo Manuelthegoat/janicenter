@@ -5,7 +5,7 @@ const Projects = () => {
     <div>
       <section
         class="breadcrumb-area breadcrumb-bg"
-        data-background="assets/img/bg/breadcrumb_bg.jpg"
+        data-background="assets/img/bg/breadcrumbbg.jpg"
       >
         <div class="container">
           <div class="row">
