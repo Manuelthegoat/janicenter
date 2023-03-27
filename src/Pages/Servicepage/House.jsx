@@ -31,9 +31,9 @@ const House = () => {
                    
                     <div class="pd-inner-img">
                       <div class="row">
-                        <div class="col-md-6">
+                        {/* <div class="col-md-6">
                           <img src="assets/img/5.jpg" alt="" />
-                        </div>
+                        </div> */}
                         <div class="col-md-6">
                           <img src="assets/img/mom.png" alt="" />
                         </div>
