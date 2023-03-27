@@ -16,7 +16,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div class="row">
-                        {projectdata.map((item)=>(
+                        {projectdata.slice(0,4).map((item)=>(
                         <div class="col-lg-3 col-md-6">
                             <div class="project-item-three">
                                 <div class="project-thumb-three">
