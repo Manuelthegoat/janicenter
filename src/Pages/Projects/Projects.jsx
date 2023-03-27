@@ -31,7 +31,7 @@ const Projects = () => {
         <div className="container">
             <div className="project-item-wrap">
                 <div className="row justify-content-center">
-                    {projectdata.map((item)=>(
+                    {projectdata.slice(0,4).map((item)=>(
                         <div className="col-lg-4 col-md-6 col-sm-10">
                             <div className="project-item inner-project-item">
                                 <div className="project-thumb">

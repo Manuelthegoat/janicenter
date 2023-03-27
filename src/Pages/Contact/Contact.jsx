@@ -30,6 +30,20 @@ const Contact = () => {
       </section>
       <section class="contact-area pt-130 pb-130">
         <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-10">
+              <div class="section-title-three text-center">
+                {/* <span class="sub-title">Our Services</span> */}
+                <h2 class="title">Customer Service</h2>
+                <p>
+                  Our Customer service Team is available 24/7 to support you —
+                  both before and after you use our services — the team ensures
+                  that you have an easy, enjoyable experience when you use us.
+                  We are a one-customer Janitorial service company!
+                </p>
+              </div>
+            </div>
+          </div>
           <div class="inner-contact-info-wrap">
             <div class="row justify-content-center">
               <div class="col-lg-4 col-md-6 col-sm-10">
@@ -38,8 +52,7 @@ const Contact = () => {
                     <i class="fas fa-phone-volume"></i>
                   </div>
                   <div class="content">
-                    <a href="tel:0123456789">+23 (000) 68 603</a>
-                    <a href="tel:0123456789">+55 (000) 68 879</a>
+                    <a href="tel:0123456789">(+234) 909 532 1394</a>
                   </div>
                 </div>
               </div>
@@ -49,8 +62,7 @@ const Contact = () => {
                     <i class="fas fa-envelope"></i>
                   </div>
                   <div class="content">
-                    <a href="mailto:Envato@gmail.com">Envato@gmail.com</a>
-                    <a href="mailto:Envato@gmail.com">Envato@gmail.com</a>
+                    <a href="mailto:Envato@gmail.com">support@janicentre.com</a>
                   </div>
                 </div>
               </div>
@@ -61,7 +73,7 @@ const Contact = () => {
                   </div>
                   <div class="content">
                     <p>
-                      66 broklyn golden street <br /> 600 New york. USA
+                    NO 18 King George V street,<br/> Onikan Lagos
                     </p>
                   </div>
                 </div>
@@ -119,20 +131,18 @@ const Contact = () => {
       </section>
       <div className="row justify-content-center">
         <div className="col-lg-4 col-md-6 col-sm-10" id="contact-map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.596368315712!2d3.403800314296764!3d6.445839225850751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2446aa8755%3A0x7de45fcb105921de!2s18%20King%20George%20V%20Rd%2C%20Lagos%20Island%20102273%2C%20Lagos!5e0!3m2!1sen!2sng!4v1679496919156!5m2!1sen!2sng"
-          width="600"
-          height="450"
-          style={{ border: "0" }}
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.596368315712!2d3.403800314296764!3d6.445839225850751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2446aa8755%3A0x7de45fcb105921de!2s18%20King%20George%20V%20Rd%2C%20Lagos%20Island%20102273%2C%20Lagos!5e0!3m2!1sen!2sng!4v1679496919156!5m2!1sen!2sng"
+            width="600"
+            height="450"
+            style={{ border: "0" }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
-      <div  className="col-lg-12">
-        
-      </div>
+      <div className="col-lg-12"></div>
     </div>
   );
 };

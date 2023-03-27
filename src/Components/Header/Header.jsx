@@ -22,7 +22,7 @@ const Header = () => {
                                             <li><Link to="/about">About Us</Link></li>
                                             <li><Link to="/our-partners">Our Partners</Link></li>
                                             <li><Link to="/services">Become an achiever</Link></li>
-                                            <li><Link to="/contact">Contact</Link></li>
+                                            <li><Link to="/contact">Customer Service</Link></li>
                                         </ul>
                                     </div>
                                     <div class="header-action d-none d-md-block">

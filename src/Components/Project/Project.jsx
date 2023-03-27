@@ -23,7 +23,7 @@ const Project = () => {
                                     <a href={item.link}><img src={item.img} alt=""/></a>
                                 </div>
                                 <div class="project-content-three">
-                                    <h2 class="title"><a>{item.title}</a></h2>
+                                    <h2 class="title"><a href={item.link}>{item.title}</a></h2>
                                     <span>{item.ex}</span>
                                 </div>
                             </div>
