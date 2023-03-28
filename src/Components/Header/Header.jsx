@@ -25,18 +25,18 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className={`${sticky ? "sticky " : "nav"}`}>
     <Container>
-      <Navbar.Brand href="#home"><img src="logo4.svg" className="logos" alt="" /></Navbar.Brand>
+      <Navbar.Brand href="/"><img src="logo4.svg" className="logos" alt="" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
          
         </Nav>
         <Nav className="mpt">
-          <Nav.Link className='text-light emmas' href="#deets">Home</Nav.Link>
-          <Nav.Link className='text-light emmas' href="#deets">About Us</Nav.Link>
-          <Nav.Link className='text-light emmas' href="#deets">Our Partners</Nav.Link>
-          <Nav.Link className='text-light emmas' href="#deets">Become An Achiever</Nav.Link>
-          <Nav.Link className='text-light emmas' href="#deets">Customer Service</Nav.Link>
+          <Nav.Link className='text-light emmas' href="/">Home</Nav.Link>
+          <Nav.Link className='text-light emmas' href="/about">About Us</Nav.Link>
+          <Nav.Link className='text-light emmas' href="/our-partners">Our Partners</Nav.Link>
+          <Nav.Link className='text-light emmas' href="/achiever">Become An Achiever</Nav.Link>
+          <Nav.Link className='text-light emmas' href="/contact">Customer Service</Nav.Link>
          
         </Nav>
         <div className="nav-btn">
