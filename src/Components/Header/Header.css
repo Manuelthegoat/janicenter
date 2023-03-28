@@ -1,76 +1,10 @@
-.he{
-    width: 1rem;
-}
-.navbars{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav{
     background-color: #82cc09;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0.2rem;
-    height: 7rem;
-    transition: .3s ease-in-out;
 }
 .sticky{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
-    /* background: white; */
     position: sticky;
     top: 0;
     z-index: 100;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #82cc09;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0.2rem;
-    height: 7rem;
-}
-.nav-list{
-    display: flex;
-    align-items: center;
-    gap: 4rem;
-}
-.nav-list li{
-    list-style: none;
-    font-weight: bold;
-    color: white;
-}
-.nav-btn{
-    display: flex;
-    gap: 1rem;
-    width: 15rem;
-    /* height: 5rem; */
-    background-color: #1F4ED8;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-}
-.content p{
-    color: white;
-}
-.content p:nth-child(2){
-    font-weight: bold;
-}
-.icons{
-    background-color: #82cc09;
-    height: 100%;
-    width: 35px;
-    text-align: center;
-    border-radius: 50%;
-}
-.bar{
-    display: none;
-}
-.icons>svg{
-    color: white;
-}
-@media screen and (max-width: 990px) {
-    .nav-list{
-        display: none;
-    }
-    .bar{
-        display: block;
-    }
 }
