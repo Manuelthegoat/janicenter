@@ -8,3 +8,35 @@
     z-index: 100;
     background-color: #82cc09;
 }
+.emmas{
+    font-weight: bold;
+}
+.nav-btn{
+    display: flex;
+    gap: 1rem;
+    width: 15rem;
+    background-color: #1F4ED8;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p{
+    color: white;
+}
+.content:nth-child(2){
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.icon{
+    background-color: #82cc09;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+.icon>i{
+    padding-top: 0.8rem;
+}
