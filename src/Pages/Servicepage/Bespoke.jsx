@@ -1,4 +1,5 @@
 import React from "react";
+import { projectdata } from "../../Components/Project/projectdata";
 
 const Bespoke = () => {
   return (
@@ -24,7 +25,10 @@ const Bespoke = () => {
                     cleaning, we will do it. Contact us!
                   </p>
 
-                  <h4 class="title-two">Request Now!</h4>
+                  {/* <h4 class="title-two">Request Now!</h4> */}
+                  {projectdata.slice(4,8).map((item)=>(
+                  <h4 class="title-two"><a href={item.link}>{item.title}</a></h4>
+                  ))}
 
                 
                 </div>
@@ -33,6 +37,7 @@ const Bespoke = () => {
           </div>
         </div>
       </section>
+      
     </div>
   );
 };

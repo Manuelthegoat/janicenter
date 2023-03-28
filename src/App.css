@@ -13,10 +13,11 @@
     background-size: cover;
 }
 .logos{
-    width: 3rem;
+    width: 5rem;
+}
+.mobile-menu{
+    display: block !important;
 }
 @media screen and (max-width: 990px) {
-    .logos{
-        width: 2rem;
-    }
+ 
 }

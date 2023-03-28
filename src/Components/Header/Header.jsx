@@ -1,94 +1,62 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import logo from '../../Img/logo2.png'
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "../../Img/logo2.png";
+import "./Header.css";
 
 const Header = () => {
-    return (
-        <header>
-            <div id="header-fixed-height"></div>
-            <div id="sticky-header" class="menu-area menu-style-four">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="mobile-nav-toggler" id='mobile-nav-toggler'><i class="fas fa-bars"></i></div>
-                            <div class="menu-wrap">
-                                <nav class="menu-nav">
-                                    <div class="logo">
-                                        <a href="index.html"><img src='logo4.svg' className='logos' alt="Logo" /></a>
-                                    </div>
-                                    <div class="navbar-wrap main-menu d-none d-lg-flex">
-                                        <ul class="navigation">
-                                            <li><Link to="/">Home</Link></li>
-                                            <li><Link to="/about">About Us</Link></li>
-                                            <li><Link to="/our-partners">Our Partners</Link></li>
-                                            <li><Link to="/services">Become an achiever</Link></li>
-                                            <li><Link to="/contact">Customer Service</Link></li>
-                                        </ul>
-                                    </div>
-                                    <div class="header-action d-none d-md-block">
-                                        <ul class="list-wrap">
-                                            <li class="header-contact">
-                                                <div class="icon">
-                                                    <i class="fas fa-phone-alt"></i>
-                                                </div>
-                                                <div class="content">
-                                                    <span>Call for help:</span>
-                                                    <a href="tel:09095321394">(+234) 909 532 1394</a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
+  const [sticky, setSticky] = useState(false);
+  const [mobile, setMoblie] = useState(false);
 
-                            <div class="mobile-menu">
-                                <nav class="menu-box">
-                                    <div class="close-btn"><i class="fas fa-times"></i></div>
-                                    <div class="nav-logo">
-                                        <a href="index.html"><img src="assets/img/logo/logo.svg" alt="Logo" /></a>
-                                    </div>
-                                    <div class="menu-outer">
-                                    </div>
-                                    <div class="social-links">
-                                        <ul class="clearfix list-wrap">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
-                            <div class="menu-backdrop"></div>
+  useEffect(() => {
+    const handleScroll = () => {
+      setSticky(window.scrollY > 50);
+      console.log(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.addEventListener("scroll", handleScroll);
+  });
 
-                        </div>
-                    </div>
-                </div>
+  return (
+    <nav className={`${sticky ? "sticky" : "navbars"}`}>
+      <div className="logosy">
+        <img src="logo4.svg" className="logos" alt="" />
+      </div>
+      <div className="nav-itemss">
+        <ul className="nav-list">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Our Partners</li>
+          <li>Become An Achiever</li>
+          <li>Customer Service</li>
+          <div className="nav-btn">
+            <div className="icons">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6 he"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
             </div>
-
-            <div class="search-popup-wrap" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="search-close">
-                    <span><i class="fas fa-times"></i></span>
-                </div>
-                <div class="search-wrap text-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <h2 class="title">... Search Here ...</h2>
-                                <div class="search-form">
-                                    <form action="#">
-                                        <input type="text" name="search" placeholder="Type keywords here" />
-                                        <button class="search-btn"><i class="fas fa-search"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className="content">
+              <p>Call for help</p>
+              <p>(+234) 909 532 1394</p>
             </div>
-        </header>
-    )
-}
+          </div>
+        </ul>
+        <div className="bar">
+            {mobile? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>}
+        </div>
+      </div>
+    </nav>
+  );
+};
 
-export default Header
+export default Header;
