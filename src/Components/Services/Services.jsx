@@ -48,7 +48,7 @@ const Services = () => {
                                 </div>
                                 <a href='/construction' class="services-content-five">
                                     <h2 class="title"><a href="/construction">Post Construction Cleaning</a></h2>
-                                    <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
+                                    <p>We clean and remove debris and waste materials from a construction site or newly built or renovated structure after the construction process is completed. </p>
                                 </a>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const Services = () => {
                                 </div>
                                 <a href='/afterparty' class="services-content-five">
                                     <h2 class="title"><a href="services-details.html">After Party Cleaning</a></h2>
-                                    <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
+                                    <p>Cleaning and sanitizing all surfaces: This includes countertops, tables, floors, and any other surfaces that may have come into contact with food or drinks.</p>
                                 </a>
                             </div>
                         </div>
@@ -148,7 +148,7 @@ const Services = () => {
                                 </div>
                                 <a href='/window' class="services-content-five">
                                     <h2 class="title"><a href="services-details.html">Window Cleaning</a></h2>
-                                    <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
+                                    <p>Enhance the view, clean the window. We remove the dirt, dust, and smudges from windows and glass surfaces</p>
                                 </a>
                             </div>
                         </div>
@@ -165,7 +165,7 @@ const Services = () => {
                                 </div>
                                 <a href='/toilet' class="services-content-five">
                                     <h2 class="title"><a href="services-details.html">Toilet Cleaning</a></h2>
-                                    <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
+                                    <p>We offer professional cleaning services in the cleaning and sanitation of toilets and bathroom facilities.</p>
                                 </a>
                             </div>
                         </div>
