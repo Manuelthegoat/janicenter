@@ -10,7 +10,7 @@ const Services = () => {
                             <div class="section-title-three text-center">
                                 {/* <span class="sub-title">Our Services</span> */}
                                 <h2 class="title">What We Can Do For You</h2>
-                                <p>Commodo dictum iaculis eget mas phasellus ultrices nunc dignissim. Id nulla amet tincidunt urna sed massa</p>
+                                <p>Professional cleaning services, fine prices that will Keep your free time free.</p>
                             </div>
                         </div>
                     </div>
