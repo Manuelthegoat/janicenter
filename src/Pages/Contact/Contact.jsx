@@ -12,14 +12,14 @@ const Contact = () => {
           <div class="row">
             <div class="col-lg-12">
               <div class="breadcrumb-content">
-                <h2 class="title">Contact Page</h2>
+                <h2 class="title">Customer Service Page</h2>
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item">
                       <a href="index.html">Home</a>
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
-                      Contact Page
+                      Customer Service Page
                     </li>
                   </ol>
                 </nav>
