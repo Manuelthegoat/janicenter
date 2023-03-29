@@ -41,7 +41,7 @@ const Footer = () => {
                                                     <i class="fas fa-phone-alt"></i>
                                                     <a href="tel:09095321394">(+234)9095321394</a>
                                                 </li>
-                                                <li class="email-addess"><a href="mailto:support@janicentre.com">support@janicentre.com</a>
+                                                <li class="email-addess"><a href="mailto:support@janicenter.org">support@janicenter.org</a>
                                                 </li>
                                             </ul>
                                         </div>

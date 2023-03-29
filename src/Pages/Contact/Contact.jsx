@@ -62,7 +62,7 @@ const Contact = () => {
                     <i class="fas fa-envelope"></i>
                   </div>
                   <div class="content">
-                    <a href="mailto:Envato@gmail.com">support@janicentre.com</a>
+                    <a href="mailto:Envato@gmail.com">support@janicenter.org</a>
                   </div>
                 </div>
               </div>
