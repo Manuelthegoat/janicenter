@@ -57,7 +57,7 @@ const Partners = () => {
                         </div>
                         <div class="content">
                           <h2 class="title">Lagos Office</h2>
-                          <p>No18 King George V street, Onikan Lagos</p>
+                          <a>No18 King George V street, Onikan Lagos</a><br/>
                           <a href="tel:0123456789">(+234) 909 532 1394</a>
                         </div>
                       </div>
