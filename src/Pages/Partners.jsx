@@ -56,7 +56,7 @@ const Partners = () => {
                           <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div class="content">
-                          <h2 class="title">California Office</h2>
+                          <h2 class="title">Lagos Office</h2>
                           <p>No18 King George V street, Onikan Lagos</p>
                           <a href="tel:0123456789">(+234) 909 532 1394</a>
                         </div>
