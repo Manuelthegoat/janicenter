@@ -44,8 +44,8 @@ const Header = () => {
                 <i className="fas fa-phone-alt"></i>
             </div>
             <div className="content">
-                <p>Call for help</p>
-                <a href='tel:+2349095321394' className="text-light">(+234) 909 532 1394</a>
+                <p >Call for help</p>
+                <a href='tel:+2349095321394' >(+234) 909 532 1394</a>
             </div>
           </div>
       </Navbar.Collapse>

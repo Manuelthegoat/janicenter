@@ -21,7 +21,7 @@ const About = () => {
                                                 {/* <span class="sub-title">About Our Company</span> */}
                                                 <h2 class="title">Why Us</h2>
                                             </div>
-                                            <p>We are a tech-driven cleaning services companies in Nigeria, we offer professional cleaning services to businesses in Nigeria and Africa. Our years of service have helped us thrive with the knowledge, skills, and quality of work acquired and achieved in corporate cleaning services and janitorial cleaning verticals, offering top-notch service quality. we boast of being the most reliable cleaning partner that helps you in uplifting the face of your company. find our services below</p>
+                                            <p>We are a tech-driven cleaning services company in Nigeria, we offer professional cleaning services to businesses and homes in Nigeria and Africa. Our years of service have helped us thrive with the knowledge, skills, and quality of work acquired and achieved in corporate cleaning services and janitorial cleaning verticals, offering top-notch service quality. we boast of being the most reliable cleaning partner that helps you in uplifting the face of your company. find our services below</p>
                                             <div class="progress-wrap">
                                                 <div class="progress-item">
                                                     <h5 class="title">House Cleaning</h5>

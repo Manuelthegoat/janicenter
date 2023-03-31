@@ -1,12 +1,12 @@
 .nav{
-    background-color: #82cc09;
+    background-color: #0067a3;
 }
 .sticky{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #82cc09;
+    background-color: #007ABF;
 }
 .emmas{
     font-weight: bold;
@@ -15,22 +15,25 @@
     display: flex;
     gap: 1rem;
     width: 15rem;
-    background-color: #1F4ED8;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     align-items: center;
     justify-content: center;
 }
 
 .content p{
-    color: white;
+    color: #5f9606;
+}
+.content a{
+    color: #5f9606;
 }
 .content:nth-child(2){
     font-weight: bold;
-    color: white;
+    color: #82cc09;
     text-decoration: none;
 }
 .icon{
-    background-color: #82cc09;
+    background-color: #5f9606;
     color: white;
     border-radius: 50%;
     text-align: center;

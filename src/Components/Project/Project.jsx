@@ -11,7 +11,7 @@ const Project = () => {
                             <div class="section-title-three text-center">
                                 {/* <span class="sub-title">Our Services</span> */}
                                 <h2 class="title">Our Recommended Services</h2>
-                                <p>Because Cleanliness matters the most to you, we have the unmatched value we are looking for </p>
+                                <p>Because Cleanliness matters the most to you, we have made available the unmatched value you are looking for </p>
                             </div>
                         </div>
                     </div>

@@ -49,11 +49,11 @@
 :root {
     --tg-body-font-family: 'DM Sans', sans-serif;
     --tg-heading-font-family: 'DM Sans', sans-serif;
-    --tg-primary-color: #82cc09;
-    --tg-secondary-color: #82CC09;
+    --tg-primary-color: #017ABF;
+    --tg-secondary-color: #5d5f61;
     --tg-body-font-color: #7B7D83;
-    --tg-heading-font-color: #82cc09;
-    --tg-paragraph-color: #7B7D83;
+    --tg-heading-font-color: #017ABF;
+    --tg-paragraph-color: black;
     --tg-body-font-size: 16px;
     --tg-body-font-weight: 400;
     --tg-heading-font-weight: 700;
@@ -61,7 +61,7 @@
     --tg-heading-line-height: 1.2;
     --tg-section-background: #F3F9FF;
     --tg-section-background-two: #ECF3FB;
-    --tg-blue: #82cc09;
+    --tg-blue: #017ABF;
     --tg-blue-two: #EAF4FF;
     --tg-blue-three: #06184C;
     --tg-blue-four: #091E5A;
@@ -73,8 +73,8 @@
     --tg-red: #dc3545;
     --tg-orange: #fd7e14;
     --tg-yellow: #ffc107;
-    --tg-green: #B1FF33;
-    --tg-teal: #B1FF33;
+    --tg-green: #5d5f61;
+    --tg-teal: #5d5f61;
     --tg-cyan: #0dcaf0;
     --tg-white: #ffffff;
     --tg-black: #1D212E;
