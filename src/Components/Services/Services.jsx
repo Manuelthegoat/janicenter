@@ -85,7 +85,7 @@ const Services = () => {
                                 </div>
                                 <div class="services-content-five">
                                     <h2 class="title"><a href="services-details.html">Pre Move-in Cleaning Service</a></h2>
-                                    <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
+                                    <p>Our pre-move-in cleaning service specializes in preparing a new or previously occupied home for the new occupants. This involves deep cleaning of all areas of the home to ensure that it is fresh, clean, and ready for the new occupants</p>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +121,8 @@ const Services = () => {
                                 </div>
                                 <div class="services-content-five">
                                     <h2 class="title"><a href="services-details.html">Kitchen Cleaning</a></h2>
-                                    <p>Lorem ipsum dolor sit consectetur. Ut tellus suspendisse nulla aliquam. Risus any rutrum eget time of ultrices.</p>
+                                    <p>We specialize in deep cleaning and sanitizing all areas of a kitchen. These services can be provided on a one-time basis or on a regular basis, depending on the needs of the homeowner or business owner.
+</p>
                                 </div>
                             </div>
                         </div>
