@@ -4,12 +4,21 @@ import emailjs from '@emailjs/browser';
 
 const Hero = () => {
     const [done, setdone] = useState(false)
+    const getInitialState = () => {
+      const value = "Select One";
+      return value;
+    };
+    const [value, setValue] = useState(getInitialState);
+
+  
     const form = useRef();
 
     const handleclick = (item) => {
         console.log(item)
     }
-
+    const handleChange = (e) => {
+      setValue(e.target.value);
+    };
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -49,11 +58,10 @@ const Hero = () => {
                       id="shortBy"
                       name="user_service"
                       class="form-select"
-                      aria-label="Default select example"
+                      value={value} onChange={handleChange}
                     >
-                      <option value="">Select Service</option>
                       {projectdata.slice(0, 4).map((item) => (
-                        <option value="" onClick={()=>handleclick(item.title)}>{item.title}</option>
+                        <option onClick={()=>handleclick(item.title)}>{item.title}</option>
                       ))}
                     </select>
                   </div>
