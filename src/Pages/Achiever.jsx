@@ -39,6 +39,7 @@ const Achiever = () => {
                   <br/>
                   <br/>
                   Our Achievers don't only work in a variety of settings, including office buildings, schools, hospitals, airports, hotels, and more but are able to identify and report any maintenance or repair needs, such as broken light fixtures or leaky faucets 
+                  <img src="assets/img/achiever.jpg" alt="" />
                   <br/>
                   <br/>
                   Our Achievers are trained to perform basic maintenance tasks, such as changing air filters or replacing light bulbs and are also able maintain outdoor areas, such as sidewalks, parking lots, and landscaping.
@@ -49,7 +50,7 @@ const Achiever = () => {
                   <h4 class="title-two">Become An Achiever</h4>
                   <br/>
                   <br/>
-                  <h4 class="title">Would you like to join us, learn and become a professional Janitor?<a href="/contact"> Contact us here!</a></h4>
+                  <h4 class="title">Would you like to join us, learn and become a professional Janitor?<a href="/contact" className="color6"> Contact us here!</a></h4>
 
                   
                 </div>
