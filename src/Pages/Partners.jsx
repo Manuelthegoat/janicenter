@@ -42,11 +42,7 @@ const Partners = () => {
                                                 </div> */}
                         <div class="content">
                           <h2 class="title">Corporate Organization</h2>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Porro alias sequi dolore optio ipsa, facilis
-                            repudiandae unde quos quam aliquam.
-                          </p>
+                          
                         </div>
                       </div>
                     </div>

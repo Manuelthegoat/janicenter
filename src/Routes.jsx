@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import AboutPage from "./Pages/About";
+import Achiever from "./Pages/Achiever";
 import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home";
 import Partners from "./Pages/Partners";
@@ -35,6 +36,7 @@ const Routing = () => {
         <Route path="/toilet" element={<Toilet />} />
         <Route path="/premovein" element={<Premovein />} />
         <Route path="/kitchen" element={<Kitchen />} />
+        <Route path='/achiever' element={<Achiever />} />
       </Routes>
     </>
   );

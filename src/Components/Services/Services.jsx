@@ -61,7 +61,7 @@ const Services = () => {
                                 </div>
                                 <a href='/afterparty' class="services-content-five">
                                     <h2 class="title"><a href="/afterparty">After Party Cleaning</a></h2>
-                                    <p>Cleaning and sanitizing all surfaces: This includes countertops, tables, floors, and any other surfaces that may have come into contact with food or drinks.</p>
+                                    <p>We clean and sanitize all surfaces after your party: countertops, tables, floors, and any other surfaces that may have come into contact with food or drinks.</p>
                                 </a>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ const Services = () => {
                                 </div>
                                 <div class="services-content-five">
                                     <h2 class="title"><a href="/premovein">Pre Move-in Cleaning Service</a></h2>
-                                    <p>Our pre-move-in cleaning service specializes in preparing a new or previously occupied home for the new occupants. Click To Learn More...</p>
+                                    <p>We prepare new or previously occupied home for the new occupants. Click To Learn More...</p>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +121,7 @@ const Services = () => {
                                 </div>
                                 <div class="services-content-five">
                                     <h2 class="title"><a href="/kitchen">Kitchen Cleaning</a></h2>
-                                    <p>We specialize in deep cleaning and sanitizing all areas of a kitchen. These services can be provided on a one-time basis or on a regular basis, depending on the needs of the homeowner or business owner.
+                                    <p>We deep clean and sanitize all areas of a kitchen, on a one-time basis or on a regular basis, depending on your needs.
 </p>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@ const Services = () => {
                                 </div>
                                 <a href='/window' class="services-content-five">
                                     <h2 class="title"><a href="window">Window Cleaning</a></h2>
-                                    <p>Enhance the view, clean the window. We remove the dirt, dust, and smudges from windows and glass surfaces</p>
+                                    <p>We enhance your view by removing the dirt, dust, and smudges from windows and glass surfaces</p>
                                 </a>
                             </div>
                         </div>

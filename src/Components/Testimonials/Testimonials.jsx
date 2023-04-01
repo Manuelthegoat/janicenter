@@ -57,8 +57,8 @@ const Testimonials = () => {
                       <img src="assets/img/images/avatar_img02.png" alt="" />
                     </div>
                     <div class="avatar-content">
-                      <h2 class="title">Chapel Hill Denham</h2>
-                      <p>Feedback</p>
+                      <h2 class="title">MD, Medallion Communications</h2>
+                      <p>Mr. Kentebe</p>
                     </div>
                   </div>
                 </div>
