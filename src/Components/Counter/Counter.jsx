@@ -5,6 +5,15 @@ const Counter = () => {
     <div>
        <section class="counter-area-three counter-bg jarallax" data-background="assets/img/bg/counter_bg02.jpg">
                 <div class="container">
+                <div class="row justify-content-center">
+                        <div class="col-lg-12 col-md-10 pb-25">
+                            <div class="section-title-three text-center">
+                                {/* <span class="sub-title">Our Services</span> */}
+                                <h2 class="title text-light">Our mobile App is available on playstore and appstore, click below to download</h2>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-lg-6 col-sm-6">
                             <div class="counter-item">

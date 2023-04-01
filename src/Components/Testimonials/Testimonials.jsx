@@ -6,13 +6,12 @@ const Testimonials = () => {
       <section class="testimonial-area-four  pb-100">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-10">
+            <div class="col-lg-8 col-md-10 pb-25">
               <div class="section-title-three text-center">
                 {/* <span class="sub-title">Our Services</span> */}
                 <h2 class="title">Testimonials And Reviews</h2>
                 <p>
-                  Commodo dictum iaculis eget mas phasellus ultrices nunc
-                  dignissim. Id nulla amet tincidunt urna sed massa
+                Sparkling Reviews from Satisfied Clients
                 </p>
               </div>
             </div>
@@ -27,6 +26,8 @@ const Testimonials = () => {
                   <p>
                     “The cleaning was well executed and I am very satisfied with
                     the service delivery.”
+                    <br/>
+                    <br/>
                   </p>
                   <div class="testimonial-avatar-info">
                     <div class="avatar-thumb">
