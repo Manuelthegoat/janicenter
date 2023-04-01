@@ -1,4 +1,5 @@
 import React from "react";
+import { projectdata } from "../Components/Project/projectdata";
 
 const Partners = () => {
   return (
@@ -71,16 +72,16 @@ const Partners = () => {
                 <h2 class="title">Join Us</h2>
                 <form action="#">
                   <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                       <div class="form-grp">
-                        <input type="text" placeholder="First Name*" />
+                        <input type="text" placeholder="Company Name*" />
                       </div>
                     </div>
-                    <div class="col-sm-6">
+                    {/* <div class="col-sm-6">
                       <div class="form-grp">
                         <input type="text" placeholder="Last Name*" />
                       </div>
-                    </div>
+                    </div> */}
                     <div class="col-sm-6">
                       <div class="form-grp">
                         <input type="text" placeholder=" Phone number*" />
@@ -100,24 +101,13 @@ const Partners = () => {
                       aria-label="Default select example"
                     >
                       <option value="">Select Services*</option>
-                      <option>Office Service*</option>
-                      <option>Home Service*</option>
-                      <option>Others Service*</option>
+                      {projectdata.slice(0,4).map((item)=>(
+                        <option value="">{item.title}</option>
+                      ))}
                     </select>
                   </div>
 
-                  <div class="form-grp select-grp">
-                    <select
-                      id="shortByThree"
-                      name="select"
-                      aria-label="Default select example"
-                    >
-                      <option value="">How did you hear about us?*</option>
-                      <option>Office Service</option>
-                      <option>Home Service</option>
-                      <option>Others Service</option>
-                    </select>
-                  </div>
+                  
                   <div class="form-grp">
                     <textarea
                       name="comments"
