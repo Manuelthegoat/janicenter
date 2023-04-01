@@ -9,9 +9,6 @@ const Hero = () => {
     const handleclick = (item) => {
         console.log(item)
     }
-     const handleChange = (e) => {
-    setValue(e.target.value);
-  };
 
 
     const sendEmail = (e) => {
