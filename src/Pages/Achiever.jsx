@@ -49,7 +49,7 @@ const Achiever = () => {
                   <h4 class="title-two">Become An Achiever</h4>
                   <br/>
                   <br/>
-                  <h4 class="title">Would you like to join us, learn and become a professional?<a href=""> Contact us here!</a></h4>
+                  <h4 class="title">Would you like to join us, learn and become a professional Janitor?<a href="/contact"> Contact us here!</a></h4>
 
                   
                 </div>

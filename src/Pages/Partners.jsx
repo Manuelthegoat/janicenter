@@ -42,7 +42,10 @@ const Partners = () => {
                                                 </div> */}
                         <div class="content">
                           <h2 class="title">Corporate Organization</h2>
-                          
+                          <a>
+                            We offer customizable cleaning plans to meet the
+                            specific needs and schedules of our clients.<br/>Scroll Down To See Our Partners
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -52,8 +55,9 @@ const Partners = () => {
                           <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div class="content">
-                          <h2 class="title">Lagos Office</h2>
-                          <a>No18 King George V street, Onikan Lagos</a><br/>
+                          <h2 class="title">Our Lagos Office</h2>
+                          <a>No 18 King George V street, Onikan Lagos</a>
+                          <br />
                           <a href="tel:0123456789">(+234) 909 532 1394</a>
                         </div>
                       </div>
@@ -212,7 +216,7 @@ const Partners = () => {
                 <img src="assets/img/p6.png" alt="" />
               </div>
             </div>
-            
+
             <div class="col-lg-2 col-sm-6">
               <div class="brand-item">
                 <img src="assets/img/p7.png" alt="" />
