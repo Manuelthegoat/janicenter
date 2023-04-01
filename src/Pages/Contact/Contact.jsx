@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import two from "../../Img/2.jpg";
 
 const Contact = () => {
+  const [done, setdone] = useState(false)
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_pm4xgdp', 'template_zyovrzk', form.current, 'RpW_lOlcbPmxSuC9d')
+      .then((result) => {
+          console.log(result.text);
+          setdone(true)
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <div>
       <section
@@ -90,26 +105,26 @@ const Contact = () => {
               <div class="col-lg-6">
                 <div class="contact-content">
                   <h2 class="title">Contact for Services</h2>
-                  <form action="#">
+                  <form ref={form} onSubmit={sendEmail}>
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-grp">
-                          <input type="text" placeholder="Your Name" />
+                          <input type="text" name='user_name' placeholder="Your Name" />
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-grp">
-                          <input type="email" placeholder="Email address" />
+                          <input type="email" name='user_email' placeholder="Email address" />
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-grp">
-                          <input type="text" placeholder="Phone number" />
+                          <input type="text" name='user_phone' placeholder="Phone number" />
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-grp">
-                          <input type="text" placeholder="Subject" />
+                          <input type="text" name='user_subject' placeholder="Subject" />
                         </div>
                       </div>
                     </div>
@@ -119,6 +134,9 @@ const Contact = () => {
                         placeholder="Write message"
                       ></textarea>
                     </div>
+                    <div className="form-grp">
+                    {done && <p>Submitted</p>}
+                  </div>
                     <button type="submit" class="btn">
                       Send a message
                     </button>

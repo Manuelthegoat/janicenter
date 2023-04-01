@@ -1,7 +1,36 @@
-import React from "react";
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { projectdata } from "../Components/Project/projectdata";
 
 const Partners = () => {
+  const [done, setdone] = useState(false)
+  const getInitialState = () => {
+    const value = "Select One";
+    return value;
+  };
+  const [value, setValue] = useState(getInitialState);
+
+
+  const form = useRef();
+
+  const handleclick = (item) => {
+      console.log(item)
+  }
+  const handleChange = (e) => {
+    setValue(e.target.value);
+  };
+
+  const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_pm4xgdp', 'template_7k8ylqp', form.current, 'RpW_lOlcbPmxSuC9d')
+        .then((result) => {
+            console.log(result.text);
+            setdone(true)
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
   return (
     <>
       <section
@@ -70,11 +99,11 @@ const Partners = () => {
             <div class="col-lg-6">
               <div class="estimate-form">
                 <h2 class="title">Join Us</h2>
-                <form action="#">
+                <form ref={form} onSubmit={sendEmail}>
                   <div class="row">
                     <div class="col-sm-12">
                       <div class="form-grp">
-                        <input type="text" placeholder="Company Name*" />
+                        <input type="text" name='user_name' placeholder="Company Name*" />
                       </div>
                     </div>
                     {/* <div class="col-sm-6">
@@ -84,12 +113,12 @@ const Partners = () => {
                     </div> */}
                     <div class="col-sm-6">
                       <div class="form-grp">
-                        <input type="text" placeholder=" Phone number*" />
+                        <input type="text" name='user_phone' placeholder=" Phone number*" />
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-grp">
-                        <input type="email" placeholder="Email*" />
+                        <input type="email" name='user_email' placeholder="Email*" />
                       </div>
                     </div>
                   </div>
@@ -97,22 +126,27 @@ const Partners = () => {
                   <div class="form-grp select-grp">
                     <select
                       id="shortByOne"
-                      name="select"
+                      name="user_service"
                       aria-label="Default select example"
+                      value={value} onChange={handleChange}
                     >
                       <option value="">Select Services*</option>
-                      {projectdata.slice(0,4).map((item)=>(
-                        <option value="">{item.title}</option>
+                      {projectdata.slice(0, 4).map((item) => (
+                        <option onClick={()=>handleclick(item.title)}>{item.title}</option>
                       ))}
                     </select>
                   </div>
+                 
 
                   
                   <div class="form-grp">
                     <textarea
-                      name="comments"
+                      name="message"
                       placeholder="Comments/Questions*"
                     ></textarea>
+                  </div>
+                  <div className="form-grp">
+                    {done && <p>Submitted</p>}
                   </div>
                   <button type="submit" class="btn btn-two">
                     Submit Now
