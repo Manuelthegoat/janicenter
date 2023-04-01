@@ -69,4 +69,11 @@ export const projectdata = [
         ex: 'Excellent service',
         link: '/kitchen',
     },
+    {
+        id: 2,
+       
+        title: 'Retainership',
+        ex: 'Excellent service',
+        link: '/kitchen',
+    },
 ]

@@ -33,8 +33,8 @@ const AboutPage = () => {
       </section>
       <Abouta />
       {/* <Servicearea /> */}
-      <Aservice />
-      <Timeline />
+      {/* <Aservice />
+      <Timeline /> */}
     </>
   );
 };

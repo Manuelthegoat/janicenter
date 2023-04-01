@@ -37,7 +37,7 @@ const Hero = () => {
                                 <h3 >Cleaning to the last detail</h3>
                                 <div class="banner-btn" >
                                     <a href="/about" class="btn">Discover MORE</a>
-                                    <a href="/services" class="btn btn-two">Our service</a>
+                                    <a href="/services" class="btn btn-two">Our services</a>
                                 </div>
                             </div>
                         </div>

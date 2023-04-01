@@ -26,9 +26,13 @@ const Bespoke = () => {
                   </p>
 
                   {/* <h4 class="title-two">Request Now!</h4> */}
-                  {projectdata.slice(4,8).map((item)=>(
-                  <h4 class="title-two"><a href={item.link}>{item.title}</a></h4>
-                  ))}
+               
+                  <h4 class="title-two"><a href='/afterparty'>After Party Cleaning</a></h4>
+                  <h4 class="title-two"><a href='/premovein'>Pre move-in Cleaning</a></h4>
+                  <h4 class="title-two"><a href='/construction'></a>Post Construction Cleaning</h4>
+                  <h4 class="title-two"><a href='/retainership'></a>Retainership</h4>
+                  <h4 class="title-two"><a href='/'></a>Others</h4>
+                
 
                 
                 </div>

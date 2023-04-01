@@ -30,9 +30,17 @@ const Projects = () => {
       <section className="inner-project-area-two pt-130 pb-130">
         <div className="container">
             <div className="project-item-wrap">
+            <div class="row justify-content-center">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="section-title-three text-center">
+                                {/* <span class="sub-title">Our Services</span> */}
+                                <h2 class="title">Click To See More</h2>
+                            </div>
+                        </div>
+                    </div>
                 <div className="row justify-content-center">
                     {projectdata.slice(0,4).map((item)=>(
-                        <div className="col-lg-4 col-md-6 col-sm-10">
+                        <div className="col-lg-3 col-md-6 col-sm-10">
                             <div className="project-item inner-project-item">
                                 <div className="project-thumb">
                                     <a href={item.link}><img src={item.img} alt="" /></a>
