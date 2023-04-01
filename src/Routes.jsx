@@ -10,7 +10,9 @@ import Bespoke from "./Pages/Servicepage/Bespoke";
 import Construction from "./Pages/Servicepage/Construction";
 import Fumigation from "./Pages/Servicepage/Fumigation";
 import House from "./Pages/Servicepage/House";
+import Kitchen from "./Pages/Servicepage/Kitchen";
 import Party from "./Pages/Servicepage/Party";
+import Premovein from "./Pages/Servicepage/Premovein";
 import Toilet from "./Pages/Servicepage/Toilet";
 import Window from './Pages/Servicepage/Window'
 
@@ -31,6 +33,8 @@ const Routing = () => {
         <Route path='/window' element={<Window />} />
         <Route path='/afterparty' element={<Party />} />
         <Route path="/toilet" element={<Toilet />} />
+        <Route path="/premovein" element={<Premovein />} />
+        <Route path="/kitchen" element={<Kitchen />} />
       </Routes>
     </>
   );

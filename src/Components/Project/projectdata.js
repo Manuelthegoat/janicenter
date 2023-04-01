@@ -55,4 +55,18 @@ export const projectdata = [
         ex: 'Excellent service',
         link: '/toilet',
     },
+    {
+        id: 2,
+        img: './assets/img/toilet.jpg',
+        title: 'Pre-Move-In Cleaning',
+        ex: 'Excellent service',
+        link: '/premovein',
+    },
+    {
+        id: 2,
+        img: './assets/img/toilet.jpg',
+        title: 'Kitchen Cleaning',
+        ex: 'Excellent service',
+        link: '/kitchen',
+    },
 ]

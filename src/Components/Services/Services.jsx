@@ -60,7 +60,7 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <a href='/afterparty' class="services-content-five">
-                                    <h2 class="title"><a href="services-details.html">After Party Cleaning</a></h2>
+                                    <h2 class="title"><a href="/afterparty">After Party Cleaning</a></h2>
                                     <p>Cleaning and sanitizing all surfaces: This includes countertops, tables, floors, and any other surfaces that may have come into contact with food or drinks.</p>
                                 </a>
                             </div>
@@ -84,8 +84,8 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div class="services-content-five">
-                                    <h2 class="title"><a href="services-details.html">Pre Move-in Cleaning Service</a></h2>
-                                    <p>Our pre-move-in cleaning service specializes in preparing a new or previously occupied home for the new occupants. This involves deep cleaning of all areas of the home to ensure that it is fresh, clean, and ready for the new occupants</p>
+                                    <h2 class="title"><a href="/premovein">Pre Move-in Cleaning Service</a></h2>
+                                    <p>Our pre-move-in cleaning service specializes in preparing a new or previously occupied home for the new occupants. Click To Learn More...</p>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div class="services-content-five">
-                                    <h2 class="title"><a href="services-details.html">Kitchen Cleaning</a></h2>
+                                    <h2 class="title"><a href="/kitchen">Kitchen Cleaning</a></h2>
                                     <p>We specialize in deep cleaning and sanitizing all areas of a kitchen. These services can be provided on a one-time basis or on a regular basis, depending on the needs of the homeowner or business owner.
 </p>
                                 </div>
@@ -148,7 +148,7 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <a href='/window' class="services-content-five">
-                                    <h2 class="title"><a href="services-details.html">Window Cleaning</a></h2>
+                                    <h2 class="title"><a href="window">Window Cleaning</a></h2>
                                     <p>Enhance the view, clean the window. We remove the dirt, dust, and smudges from windows and glass surfaces</p>
                                 </a>
                             </div>
@@ -165,7 +165,7 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <a href='/toilet' class="services-content-five">
-                                    <h2 class="title"><a href="services-details.html">Toilet Cleaning</a></h2>
+                                    <h2 class="title"><a href="toilet">Toilet Cleaning</a></h2>
                                     <p>We offer professional cleaning services in the cleaning and sanitation of toilets and bathroom facilities.</p>
                                 </a>
                             </div>
