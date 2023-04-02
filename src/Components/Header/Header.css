@@ -43,3 +43,8 @@
 .icon>i{
     padding-top: 0.8rem;
 }
+.mpt{
+    display: flex;
+    gap: 2rem;
+    padding-right: 2rem;
+}

@@ -32,11 +32,11 @@ const Header = () => {
          
         </Nav>
         <Nav className="mpt">
-          <Nav.Link className='text-light emmas' href="/">Home</Nav.Link>
-          <Nav.Link className='text-light emmas' href="/about">About Us</Nav.Link>
-          <Nav.Link className='text-light emmas' href="/our-partners">Our Partners</Nav.Link>
-          <Nav.Link className='text-light emmas' href="/achiever">Become An Achiever</Nav.Link>
-          <Nav.Link className='text-light emmas' href="/contact">Customer Service</Nav.Link>
+          <Link className='text-light emmas' to="/">Home</Link>
+          <Link className='text-light emmas' to="/about">About Us</Link>
+          <Link className='text-light emmas' to="/our-partners">Our Partners</Link>
+          <Link className='text-light emmas' to="/achiever">Become An Achiever</Link>
+          <Link className='text-light emmas' to="/contact">Customer Service</Link>
          
         </Nav>
         <div className="nav-btn">

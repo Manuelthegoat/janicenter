@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { projectdata } from './projectdata'
 
 const Project = () => {
@@ -20,10 +21,10 @@ const Project = () => {
                         <div class="col-lg-3 col-md-6">
                             <div class="project-item-three">
                                 <div class="project-thumb-three">
-                                    <a href={item.link}><img src={item.img} alt=""/></a>
+                                    <Link to={item.link}><img src={item.img} alt=""/></Link>
                                 </div>
                                 <div class="project-content-three">
-                                    <h2 class="title"><a href={item.link}>{item.title}</a></h2>
+                                    <h2 class="title"><Link to={item.link}>{item.title}</Link></h2>
                                     <span>{item.ex}</span>
                                 </div>
                             </div>

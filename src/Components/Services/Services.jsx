@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Services = () => {
   return (
@@ -46,10 +47,10 @@ const Services = () => {
                                         <path d="M22.4345 0.544007H27.766V10.3364H14.383" stroke="currentcolor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </div>
-                                <a href='/construction' class="services-content-five">
-                                    <h2 class="title"><a href="/construction">Post Construction Cleaning</a></h2>
+                                <Link to='/construction' class="services-content-five">
+                                    <h2 class="title"><Link to="/construction">Post Construction Cleaning</Link></h2>
                                     <p>We clean and remove debris and waste materials from a construction site or newly built or renovated structure after the construction process is completed. </p>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-10">
@@ -59,10 +60,10 @@ const Services = () => {
                                         <path d="M18.7379 18.7498C18.7379 17.8794 17.2221 15.4468 17.2221 15.4468C17.2221 15.4468 15.6833 17.8794 15.6833 18.7498C15.6833 19.6184 16.3675 20.3229 17.2108 20.3229C18.0537 20.3229 18.7379 19.6184 18.7379 18.7498ZM7.7775 5.12022H4.72292V1.96567H5.55583V0.244141H0V1.96567H0.833333V6.84132C0.833333 8.1089 1.82833 9.13597 3.05542 9.13597H7.7775V9.99673H9.44458V4.26032H7.7775V5.12022ZM19.1658 12.2909V7.41531C19.1658 6.14816 18.1712 5.12066 16.9454 5.12066H12.2225V4.26076H10.5554V9.99761H12.2225V9.1364H15.2775V12.2909H14.4454V14.0125H20V12.2909H19.1658Z" fill="currentcolor" />
                                     </svg>
                                 </div>
-                                <a href='/afterparty' class="services-content-five">
-                                    <h2 class="title"><a href="/afterparty">After Party Cleaning</a></h2>
+                                <Link to='/afterparty' class="services-content-five">
+                                    <h2 class="title"><Link to="/afterparty">After Party Cleaning</Link></h2>
                                     <p>We clean and sanitize all surfaces after your party: countertops, tables, floors, and any other surfaces that may have come into contact with food or drinks.</p>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-10">
@@ -84,7 +85,7 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div class="services-content-five">
-                                    <h2 class="title"><a href="/premovein">Pre Move-in Cleaning Service</a></h2>
+                                    <h2 class="title"><Link to="/premovein">Pre Move-in Cleaning Service</Link></h2>
                                     <p>We prepare new or previously occupied home for the new occupants. Click To Learn More...</p>
                                 </div>
                             </div>
@@ -120,7 +121,7 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div class="services-content-five">
-                                    <h2 class="title"><a href="/kitchen">Kitchen Cleaning</a></h2>
+                                    <h2 class="title"><Link to="/kitchen">Kitchen Cleaning</Link></h2>
                                     <p>We deep clean and sanitize all areas of a kitchen, on a one-time basis or on a regular basis, depending on your needs.
 </p>
                                 </div>
@@ -147,10 +148,10 @@ const Services = () => {
                                         <path d="M13.4872 8.67479L13.4889 8.67651" stroke="currentcolor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </div>
-                                <a href='/window' class="services-content-five">
-                                    <h2 class="title"><a href="window">Window Cleaning</a></h2>
+                                <Link to='/window' class="services-content-five">
+                                    <h2 class="title"><Link to="/window">Window Cleaning</Link></h2>
                                     <p>We enhance your view by removing the dirt, dust, and smudges from windows and glass surfaces</p>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-10">
@@ -164,10 +165,10 @@ const Services = () => {
                                         <path d="M18.3333 4.66667H18V4.33333C18 4.24493 17.9648 4.16014 17.9023 4.09763C17.8398 4.03512 17.755 4 17.6666 4C17.5782 4 17.4934 4.03512 17.4309 4.09763C17.3684 4.16014 17.3333 4.24493 17.3333 4.33333V4.66667H17C16.9116 4.66667 16.8268 4.70179 16.7643 4.7643C16.7017 4.82681 16.6666 4.91159 16.6666 5C16.6666 5.08841 16.7017 5.17319 16.7643 5.2357C16.8268 5.29821 16.9116 5.33333 17 5.33333H17.3333V5.66667C17.3333 5.75507 17.3684 5.83986 17.4309 5.90237C17.4934 5.96488 17.5782 6 17.6666 6C17.755 6 17.8398 5.96488 17.9023 5.90237C17.9648 5.83986 18 5.75507 18 5.66667V5.33333H18.3333C18.4217 5.33333 18.5065 5.29821 18.569 5.2357C18.6315 5.17319 18.6666 5.08841 18.6666 5C18.6666 4.91159 18.6315 4.82681 18.569 4.7643C18.5065 4.70179 18.4217 4.66667 18.3333 4.66667Z" fill="currentcolor" />
                                     </svg>
                                 </div>
-                                <a href='/toilet' class="services-content-five">
-                                    <h2 class="title"><a href="toilet">Toilet Cleaning</a></h2>
+                                <Link to='/toilet' class="services-content-five">
+                                    <h2 class="title"><Link to="toilet">Toilet Cleaning</Link></h2>
                                     <p>We offer professional cleaning services in the cleaning and sanitation of toilets and bathroom facilities.</p>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

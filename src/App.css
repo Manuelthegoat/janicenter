@@ -12,6 +12,11 @@
     background-position: center;
     background-size: cover;
 }
+.manuelbreadcontact{
+    background: url(../public/assets/img/service.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .color6{
     color: green;
 }

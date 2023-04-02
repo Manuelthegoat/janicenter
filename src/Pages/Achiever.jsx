@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Achiever = () => {
   return (
@@ -50,7 +51,7 @@ const Achiever = () => {
                   <h4 class="title-two">Become An Achiever</h4>
                   <br/>
                   <br/>
-                  <h4 class="title">Would you like to join us, learn and become a professional Janitor?<a href="/contact" className="color6"> Contact us here!</a></h4>
+                  <h4 class="title">Would you like to join us, learn and become a professional Janitor?<Link to="/contact" className="color6"> Contact us here!</Link></h4>
 
                   
                 </div>

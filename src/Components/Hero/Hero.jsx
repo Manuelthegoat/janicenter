@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { projectdata } from "../Project/projectdata";
 import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     const [done, setdone] = useState(false)
@@ -79,12 +80,12 @@ const Hero = () => {
                 <h2 class="title">Janicenter Africa Cleaning Services</h2>
                 <h3>Cleaning to the last detail</h3>
                 <div class="banner-btn">
-                  <a href="/about" class="btn">
+                  <Link to="/about" class="btn">
                     Discover MORE
-                  </a>
-                  <a href="/services" class="btn btn-two">
+                  </Link>
+                  <Link to="/services" class="btn btn-two">
                     Our services
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

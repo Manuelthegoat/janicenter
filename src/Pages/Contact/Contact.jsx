@@ -20,14 +20,14 @@ const Contact = () => {
   return (
     <div>
       <section
-        class="breadcrumb-area breadcrumb-bg manuelbread"
+        class="breadcrumb-area breadcrumb-bg manuelbreadcontact"
         data-background="assets/img/bg/breadcrumb_bg.jpg"
       >
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
               <div class="breadcrumb-content">
-                <h2 class="title">Customer Service Page</h2>
+                <h2 class="title">Cleaning services only for smart people</h2>
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item">
@@ -67,7 +67,7 @@ const Contact = () => {
                     <i class="fas fa-phone-volume"></i>
                   </div>
                   <div class="content">
-                    <a href="tel:0123456789">(+234) 909 532 1394</a>
+                    <a href="tel:0123456789">(+234) 909 532 1394</a><br/>
                   </div>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const Contact = () => {
                     <i class="fas fa-envelope"></i>
                   </div>
                   <div class="content">
-                    <a href="mailto:Envato@gmail.com">support@janicenter.org</a>
+                    <a href="mailto:Envato@gmail.com">support@janicenter.org</a><br/>
                   </div>
                 </div>
               </div>
