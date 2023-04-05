@@ -57,8 +57,8 @@ const Footer = () => {
                                     <div class="fw-link-list">
                                         <ul class="list-wrap">
                                             <li><Link to="/about">About</Link></li>
-                                            <li><Link to="/achiever">Meet Our Team</Link></li>
-                                            <li><Link to="/services">What We Do</Link></li>
+                                            <li><Link to="/achiever">Become An Achiever</Link></li>
+                                            <li><Link to="/services">Our Partners</Link></li>
                                             <li><Link to="/contact">Contact</Link></li>
                                         </ul>
                                     </div>
@@ -71,10 +71,10 @@ const Footer = () => {
                                     </div>
                                     <div class="fw-link-list">
                                         <ul class="list-wrap">
-                                            <li><Link to="/services">House Cleaning</Link></li>
-                                            <li><Link to="/services">Corporate Cleaning</Link></li>
-                                            <li><Link to="/services">BeSpoke Services</Link></li>
-                                            <li><Link to="/services">Fumigation Services</Link></li>
+                                            <li><Link to="/houseservice">House Cleaning</Link></li>
+                                            <li><Link to="/corporate">Corporate Cleaning</Link></li>
+                                            <li><Link to="/bespoke">BeSpoke Services</Link></li>
+                                            <li><Link to="/fumigation">Fumigation Services</Link></li>
                                         </ul>
                                     </div>
                                 </div>

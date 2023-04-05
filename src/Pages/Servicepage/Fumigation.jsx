@@ -8,9 +8,7 @@ const Fumigation = () => {
           <div class="row">
             <div class="col-lg-12">
               <div class="project-details-wrap">
-                <div class="project-details-thumb">
-                  <img src="assets/img/7.png" alt="" />
-                </div>
+               
                 <div class="project-details-content">
                   <h2 class="title">Fumigation Services</h2>
                   <p>
@@ -23,6 +21,9 @@ const Fumigation = () => {
                   </p>
 
                   <h4 class="title-two">Request Now!</h4>
+                </div>
+                <div class="project-details-thumb">
+                  <img src="assets/img/7.png" alt="" />
                 </div>
               </div>
             </div>

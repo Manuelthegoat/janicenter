@@ -11,7 +11,7 @@ const House = () => {
               <div class="col-lg-12">
                 <div class="project-details-wrap">
                   <div class="project-details-thumb">
-                    <img src="assets/img/maid.png" alt="" />
+                    {/* <img src="assets/img/maid.png" alt="" /> */}
                  
                   </div>
                   <div class="project-details-content">

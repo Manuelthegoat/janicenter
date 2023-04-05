@@ -8,9 +8,7 @@ const Construction = () => {
           <div class="row">
             <div class="col-lg-12">
               <div class="project-details-wrap">
-                <div class="project-details-thumb">
-                  <img src="assets/img/clean2.jpg" alt="" />
-                </div>
+                
                 <div class="project-details-content">
                   <h2 class="title">Post construction cleaning</h2>
                   <p>
@@ -47,6 +45,9 @@ const Construction = () => {
                   </p>
 
                   <h4 class="title-two">Request Now!</h4>
+                </div>
+                <div class="project-details-thumb">
+                  <img src="assets/img/clean2.jpg" alt="" />
                 </div>
               </div>
             </div>

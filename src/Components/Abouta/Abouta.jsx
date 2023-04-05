@@ -3,7 +3,7 @@ import React from "react";
 const Abouta = () => {
   return (
     <div>
-      <section class="about-area has-animation pt-130 pb-130">
+      <section class="about-area has-animation pt-20 pb-130">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-7 col-md-10">

@@ -25,7 +25,7 @@ const Testimonials = () => {
                 <div class="testimonial-content">
                   <p>
                     “The cleaning was well executed and I am very satisfied with
-                    the service delivery.”
+                    the service delivery.”<br/>
                     <br/>
                     <br/>
                   </p>
@@ -73,11 +73,11 @@ const Testimonials = () => {
                   <p>
                     “You and your team did a good job! I am particularly
                     impressed with your excellent disposition to CUSTOMER
-                    SERVICE…. Well Done!”
+                    SERVICE…. Well Done!”<br/><br/>
                   </p>
                   <div class="testimonial-avatar-info">
                     <div class="avatar-thumb">
-                      <img src="assets/img/images/avatar_img01.png" alt="" />
+                      <img src="assets/img/images/avatar_img02.png" alt="" />
                     </div>
                     <div class="avatar-content">
                       <h2 class="title">Mr. Martins</h2>

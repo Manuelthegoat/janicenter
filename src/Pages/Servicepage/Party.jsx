@@ -8,9 +8,7 @@ const Party = () => {
           <div class="row">
             <div class="col-lg-12">
               <div class="project-details-wrap">
-                <div class="project-details-thumb">
-                  <img src="assets/img/party.jpg" alt="" />
-                </div>
+               
                 <div class="project-details-content">
                   <h2 class="title">After party cleaning</h2>
                   <p>
@@ -39,6 +37,9 @@ const Party = () => {
                   </p>
 
                   <h4 class="title-two">Request Now!</h4>
+                </div>
+                <div class="project-details-thumb">
+                  <img src="assets/img/party.jpg" alt="" />
                 </div>
               </div>
             </div>

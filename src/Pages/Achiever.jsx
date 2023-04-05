@@ -28,7 +28,7 @@ const Achiever = () => {
           </div>
         </div>
       </section>
-      <section class="project-details-area pt-130 pb-100">
+      <section class="project-details-area pt-20 pb-100">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">

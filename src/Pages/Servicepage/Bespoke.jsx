@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { projectdata } from "../../Components/Project/projectdata";
 
 const Bespoke = () => {
@@ -9,9 +10,7 @@ const Bespoke = () => {
           <div class="row">
             <div class="col-lg-12">
               <div class="project-details-wrap">
-                <div class="project-details-thumb">
-                  <img src="assets/img/8.jpg" alt="" />
-                </div>
+               
                 <div class="project-details-content">
                   <h2 class="title">Bespoke Services</h2>
                   <p>
@@ -27,14 +26,17 @@ const Bespoke = () => {
 
                   {/* <h4 class="title-two">Request Now!</h4> */}
                
-                  <h4 class="title-two"><a href='/afterparty'>After Party Cleaning</a></h4>
-                  <h4 class="title-two"><a href='/premovein'>Pre move-in Cleaning</a></h4>
-                  <h4 class="title-two"><a href='/construction'></a>Post Construction Cleaning</h4>
-                  <h4 class="title-two"><a href='/retainership'></a>Retainership</h4>
-                  <h4 class="title-two"><a href='/'></a>Others</h4>
+                  <h4 class="title-two"><Link to='/afterparty'>After Party Cleaning</Link></h4>
+                  <h4 class="title-two"><Link to='/premovein'>Pre move-in Cleaning</Link></h4>
+                  <h4 class="title-two"><Link to='/construction'>Post Construction Cleaning</Link></h4>
+                  <h4 class="title-two"><Link to='/services'>Retainership</Link></h4>
+                  <h4 class="title-two"><Link to='/services'>Others</Link></h4>
                 
 
                 
+                </div>
+                <div class="project-details-thumb">
+                  <img src="assets/img/8.jpg" alt="" />
                 </div>
               </div>
             </div>

@@ -9,9 +9,9 @@ const Servicepage = () => {
             <div class="row">
               <div class="col-lg-12">
                 <div class="project-details-wrap">
-                  <div class="project-details-thumb">
+                  {/* <div class="project-details-thumb">
                     <img src="assets/img/afro.png" alt="" />
-                  </div>
+                  </div> */}
                   <div class="project-details-content">
                     <h2 class="title">Corporate Cleaning services</h2>
                     <p>

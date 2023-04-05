@@ -34,7 +34,7 @@ const Contact = () => {
                       <a href="index.html">Home</a>
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
-                      Customer Service Page
+                      Customer Service
                     </li>
                   </ol>
                 </nav>
@@ -43,7 +43,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <section class="contact-area pt-130 pb-130">
+      <section class="contact-area pt-20 pb-130">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-12 col-md-10">
