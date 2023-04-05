@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { projectdata } from "../../Components/Project/projectdata";
 const Projects = () => {
   return (
@@ -43,10 +44,10 @@ const Projects = () => {
                         <div className="col-lg-3 col-md-6 col-sm-10">
                             <div className="project-item inner-project-item">
                                 <div className="project-thumb">
-                                    <a href={item.link}><img src={item.img} alt="" /></a>
+                                    <Link to={item.link}><img src={item.img} alt="" /></Link>
                                 </div>
                                 <div className="project-content">
-                                    <h2 className="title"><a href={item.link}>{item.title}</a></h2>
+                                    <h2 className="title"><Link to={item.link}>{item.title}</Link></h2>
                                     <span>{item.ex}</span>
                                 </div>
                             </div>
