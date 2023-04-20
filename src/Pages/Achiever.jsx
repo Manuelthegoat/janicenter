@@ -37,8 +37,6 @@ const Achiever = () => {
                   <h2 class="title">Our Achievers</h2>
                   <p>
                   Our achievers are professional cleaners and janitors who maintain buildings, facilities, and other commercial or residential spaces. 
-                  <br/>
-                  <br/>
                   Our Achievers don't only work in a variety of settings, including office buildings, schools, hospitals, airports, hotels, and more but are able to identify and report any maintenance or repair needs, such as broken light fixtures or leaky faucets 
                   <img src="assets/img/achiever.jpg" alt="" />
                   <br/>
